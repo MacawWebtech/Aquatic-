@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aquatic | Aquarium Fish & Aquatic Supplies</title>
+<meta name="description" content="Healthy fish, thriving plants and expert-curated aquarium equipment for freshwater, marine and planted tanks. Visit Aquatic since 2008.">
+<link rel="canonical" href="https://www.aquaticandco.example/">
+<link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Aquatic | Your Aquarium, Perfectly in Balance">
+<meta property="og:description" content="Healthy fish, thriving plants and expert-curated aquarium equipment for freshwater, marine and planted tanks.">
+<meta property="og:image" content="https://commons.wikimedia.org/wiki/Special:FilePath/125L_planted_tank.jpg">
+<meta property="og:url" content="https://www.aquaticandco.example/">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<!-- Bootstrap 5.3 (layout/grid utilities only — visual design is custom) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<!-- Design system -->
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/dark-mode.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "Aquatic",
+  "description": "Aquarium fish, aquatic plants, tanks and equipment for freshwater, marine and planted aquariums.",
+  "image": "https://commons.wikimedia.org/wiki/Special:FilePath/125L_planted_tank.jpg",
+  "telephone": "+1-555-0142",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "42 Harbour Lane",
+    "addressLocality": "Portside",
+    "addressRegion": "CA",
+    "postalCode": "90001"
+  },
+  "openingHours": "Mo-Sa 10:00-19:00"
+}
+</script>
+</head>
+<body>
+
+
+<!-- ============ ANNOUNCEMENT STRIP ============ -->
+<!-- ============ TOP BAR ============ -->
+<div class="topbar">
+  <div class="container-wide topbar-inner">
+    <span class="topbar-note"><i class="bi bi-droplet-half"></i> Live arrivals every Thursday<span class="topbar-note-long"> &mdash; guaranteed healthy on delivery</span></span>
+    <div class="topbar-links">
+      <a href="tel:+15550142"><i class="bi bi-telephone"></i> +1 555 0142</a>
+      <span class="topbar-sep"></span>
+      <span class="topbar-hours"><i class="bi bi-clock"></i> Mon&ndash;Sat, 10am&ndash;7pm</span>
+      <span class="topbar-sep"></span>
+      <span class="topbar-social">
+        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+      </span>
+    </div>
+  </div>
+</div>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="container-wide header-inner">
+    <a href="index.html" class="brand"><img src="assets/images/logo.png" alt="Aquatic" class="brand-logo"></a>
+
+    <nav class="main-nav" aria-label="Primary">
+      <div class="nav-item has-dropdown is-active">
+        <button type="button" class="nav-link" data-dropdown-toggle aria-expanded="false" aria-haspopup="true">
+          Home <i class="bi bi-chevron-down" aria-hidden="true"></i>
+        </button>
+        <div class="nav-dropdown">
+          <a href="index.html" class="home-card is-current">
+            <span class="home-card-thumb"><img src="assets/images/banner.jpg" alt="" loading="lazy"></span>
+            <span class="home-card-text"><strong>Home Page 1</strong><span>Reef hero with live tank stats</span></span>
+          </a>
+          <a href="home-2.html" class="home-card">
+            <span class="home-card-thumb"><img src="assets/images/banner1.jpg" alt="" loading="lazy"></span>
+            <span class="home-card-text"><strong>Home Page 2</strong><span>Split layout with featured species</span></span>
+          </a>
+        </div>
+      </div>
+      <a href="pages/about.html">About</a>
+      <a href="pages/fish.html">Fish</a>
+      <a href="pages/plants.html">Aquatic Plants</a>
+      <a href="pages/equipment.html">Equipment</a>
+      <a href="pages/blog.html">Care Guides</a>
+      <a href="pages/contact.html">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn search-toggle" data-search-toggle aria-label="Search" aria-expanded="false" aria-controls="headerSearch"><i class="bi bi-search"></i></button>
+      <button class="icon-btn" aria-label="Wishlist"><i class="bi bi-heart"></i><span class="icon-badge">2</span></button>
+      <button class="icon-btn" aria-label="Shopping bag"><i class="bi bi-bag"></i><span class="icon-badge">3</span></button>
+      <button class="icon-btn theme-toggle" data-theme-toggle aria-label="Toggle dark mode">
+        <i class="bi bi-sun-fill" aria-hidden="true"></i>
+        <i class="bi bi-moon-stars-fill" aria-hidden="true"></i>
+      </button>
+      <a href="pages/contact.html" class="btn btn-primary btn-sm header-cta">Book a tank visit</a>
+      <button class="icon-btn menu-btn" data-menu-open aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
+        <i class="bi bi-list" style="font-size:1.5rem"></i>
+      </button>
+    </div>
+  </div>
+
+  <div class="header-search" id="headerSearch" data-search-panel>
+    <div class="header-search-inner">
+      <div class="container-wide">
+        <form role="search" onsubmit="return false;">
+          <input type="search" name="q" placeholder="Search fish, plants, tanks or filters" aria-label="Search the store">
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</header>
+
+<nav class="mobile-nav" id="mobileNav" aria-label="Mobile">
+  <div class="mobile-nav-top">
+    <span class="brand"><img src="assets/images/logo.png" alt="Aquatic" class="brand-logo"></span>
+    <button class="icon-btn" data-menu-close aria-label="Close menu"><i class="bi bi-x-lg"></i></button>
+  </div>
+
+  <button type="button" class="m-sub-toggle" data-sub-toggle aria-expanded="false">
+    Home <i class="bi bi-chevron-down" aria-hidden="true"></i>
+  </button>
+  <div class="mobile-sub">
+    <div>
+      <a href="index.html" class="is-current">Home Page 1</a>
+      <a href="home-2.html" class="">Home Page 2</a>
+    </div>
+  </div>
+
+  <a href="pages/about.html">About</a>
+  <a href="pages/fish.html">Fish</a>
+  <a href="pages/plants.html">Aquatic Plants</a>
+  <a href="pages/equipment.html">Equipment</a>
+  <a href="pages/blog.html">Care Guides</a>
+  <a href="pages/contact.html">Contact</a>
+
+  <div class="mobile-actions">
+    <a href="pages/contact.html" class="btn btn-primary btn-sm">Book a tank visit</a>
+    <a href="tel:+15550142" class="btn btn-outline btn-sm">Call the store</a>
+  </div>
+</nav>
+
+<main id="main">
+
+  <!-- ============ 1. HERO — full-bleed immersive ============ -->
+  <section class="hero-v2">
+    <div class="hero-v2-media" aria-hidden="true">
+      <img src="assets/images/banner.jpg" alt="Colourful clownfish and reef fish swimming among coral and anemones">
+      <div class="hero-v2-scrim"></div>
+    </div>
+
+    <div class="container-wide hero-v2-content reveal">
+      <span class="hero-v2-badge"><i class="bi bi-stars"></i> New stock arriving this week</span>
+    
+      <h1>Bring a Living<br><em>World</em> Home.</h1>
+      <p>Healthy fish, thriving plants, and carefully selected aquarium essentials for freshwater, marine, and planted tanks.</p>
+      <div class="hero-ctas">
+        <a href="pages/fish.html" class="btn btn-primary">Explore Fish</a>
+        <a href="pages/equipment.html" class="btn btn-outline-light">Build Your Aquarium</a>
+      </div>
+    </div>
+
+    <div class="hero-v2-scroll" aria-hidden="true"><span></span></div>
+
+    <div class="container-wide hero-v2-stats-wrap">
+      <div class="hero-v2-stats reveal">
+        <div class="hv2-stat">
+          <span class="hv2-icon"><i class="bi bi-droplet-half"></i></span>
+          <div><strong>Optimal · pH 7.0</strong><span>Water Quality Today</span></div>
+        </div>
+        <div class="hv2-stat">
+          <span class="hv2-icon"><i class="bi bi-water"></i></span>
+          <div><strong>Paracheirodon innesi</strong><span>Featured Species</span></div>
+        </div>
+        <div class="hv2-stat">
+          <span class="hv2-icon"><i class="bi bi-star-fill"></i></span>
+          <div><strong>4.9 / 5</strong><span>Rated by Customers</span></div>
+        </div>
+        <div class="hv2-stat">
+          <span class="hv2-icon"><i class="bi bi-award"></i></span>
+          <div><strong>15+ Years</strong><span>Caring for Aquatic Life</span></div>
+        </div>
+      </div>
+    </div>
+
+    <svg class="hero-v2-divider" viewBox="0 0 1440 70" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0,32 C220,68 420,0 720,18 C1020,36 1220,64 1440,26 L1440,70 L0,70 Z"></path>
+    </svg>
+  </section>
+
+
+  <!-- ============ 2. NEW STOCK ARRIVALS ============ -->
+  <section class="section" aria-labelledby="arrivals-heading">
+    <div class="container-wide">
+      <div class="section-head reveal">
+        <span class="eyebrow">This Week's Delivery</span>
+        <h2 id="arrivals-heading">Fresh In. Ready to Thrive.</h2>
+        <p>New arrivals carefully selected for healthy, established aquariums.</p>
+      </div>
+    </div>
+    <div class="container-wide">
+      <div class="arrivals-track reveal">
+
+        <article class="fish-card">
+          <div class="media">
+            <img src="assets/images/fish.jpg" alt="A small school of Neon Tetra, blue and red striped fish">
+            <span class="badge badge-stock badge-dot">In Stock</span>
+          </div>
+          <div class="body">
+            <h3 style="font-size:1.1rem">Neon Tetra</h3>
+            <span class="sci">Paracheirodon innesi</span>
+            <div class="chip-row">
+              <span class="chip"><i class="bi bi-droplet"></i>Freshwater</span>
+              <span class="chip"><i class="bi bi-emoji-smile"></i>Easy</span>
+            </div>
+            <div class="meta-row"><span>72–78°F</span><span>Community</span></div>
+            <a href="pages/fish.html" class="btn-link">View Species <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="fish-card">
+          <div class="media">
+            <img src="assets/images/fish2.jpg" alt="A Betta Splendens with flowing fins">
+            <span class="badge badge-stock badge-dot">In Stock</span>
+          </div>
+          <div class="body">
+            <h3 style="font-size:1.1rem">Betta Splendens</h3>
+            <span class="sci">Betta splendens</span>
+            <div class="chip-row">
+              <span class="chip"><i class="bi bi-droplet"></i>Freshwater</span>
+              <span class="chip"><i class="bi bi-emoji-smile"></i>Easy</span>
+            </div>
+            <div class="meta-row"><span>76–82°F</span><span>Solitary</span></div>
+            <a href="pages/fish.html" class="btn-link">View Species <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="fish-card">
+          <div class="media">
+            <img src="assets/images/fish4.jpg" alt="A German Blue Ram cichlid with vivid blue and yellow colouring">
+            <span class="badge badge-limited badge-dot">Limited</span>
+          </div>
+          <div class="body">
+            <h3 style="font-size:1.1rem">German Blue Ram</h3>
+            <span class="sci">Mikrogeophagus ramirezi</span>
+            <div class="chip-row">
+              <span class="chip"><i class="bi bi-droplet"></i>Freshwater</span>
+              <span class="chip"><i class="bi bi-bar-chart"></i>Easy</span>
+            </div>
+            <div class="meta-row"><span>78–84°F</span><span>Community</span></div>
+            <a href="pages/fish.html" class="btn-link">View Species <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="fish-card">
+          <div class="media">
+            <img src="assets/images/fish6.jpg" alt="A group of Cherry Barb fish with deep red colouring">
+            <span class="badge badge-stock badge-dot">In Stock</span>
+          </div>
+          <div class="body">
+            <h3 style="font-size:1.1rem">Cherry Barb</h3>
+            <span class="sci">Puntius titteya</span>
+            <div class="chip-row">
+              <span class="chip"><i class="bi bi-droplet"></i>Freshwater</span>
+              <span class="chip"><i class="bi bi-emoji-smile"></i>Easy</span>
+            </div>
+            <div class="meta-row"><span>73–79°F</span><span>Community</span></div>
+            <a href="pages/fish.html" class="btn-link">View Species <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="fish-card">
+          <div class="media">
+            <img src="assets/images/fish5.jpg" alt="A school of Harlequin Rasbora with copper and black markings">
+            <span class="badge badge-stock badge-dot">In Stock</span>
+          </div>
+          <div class="body">
+            <h3 style="font-size:1.1rem">Harlequin Rasbora</h3>
+            <span class="sci">Trigonostigma heteromorpha</span>
+            <div class="chip-row">
+              <span class="chip"><i class="bi bi-droplet"></i>Freshwater</span>
+              <span class="chip"><i class="bi bi-emoji-smile"></i>Easy</span>
+            </div>
+            <div class="meta-row"><span>73–81°F</span><span>Community</span></div>
+            <a href="pages/fish.html" class="btn-link">View Species <i class="bi bi-arrow-right"></i></a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 3. SHOP BY AQUATIC WORLD ============ -->
+  <section class="section" style="background:var(--surface-2)" aria-labelledby="world-heading">
+    <div class="container-wide">
+      <div class="section-head reveal">
+        <span class="eyebrow">Choose Your Environment</span>
+        <h2 id="world-heading">Shop by Aquatic World</h2>
+      </div>
+      <div class="world-grid reveal">
+        <a href="pages/fish.html" class="world-panel tall">
+          <img src="assets/images/Fresh water.jpg" alt="A lush freshwater community aquarium">
+          <div class="wp-content">
+            <h3>Freshwater</h3>
+            <p>Colorful community fish and dependable essentials for everyday aquariums.</p>
+            <span class="btn-link">Shop Freshwater <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </a>
+        <a href="pages/fish.html" class="world-panel">
+          <img src="assets/images/Marine.jpg" alt="A vibrant marine reef aquarium">
+          <div class="wp-content">
+            <h3>Marine</h3>
+            <p>Explore reef-ready livestock and specialist marine equipment.</p>
+            <span class="btn-link">Shop Marine <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </a>
+        <a href="pages/plants.html" class="world-panel">
+          <img src="assets/images/Planted Tank.jpg" alt="A nature-style planted aquascape">
+          <div class="wp-content">
+            <h3>Planted Tanks</h3>
+            <p>Everything you need for lush, healthy aquascapes.</p>
+            <span class="btn-link">Shop Planted <i class="bi bi-arrow-right"></i></span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4. AQUATIC PLANTS / AQUASCAPING ============ -->
+  <section class="section" aria-labelledby="scape-heading">
+    <div class="container-wide scape-grid">
+      <div class="scape-media reveal">
+        <img src="assets/images/Fresh water.jpg" alt="A detailed nature-style aquascape with driftwood and carpeting plants">
+      </div>
+      <div class="reveal">
+        <span class="eyebrow">Aquascaping</span>
+        <h2 id="scape-heading">Turn Glass Into a Living Landscape.</h2>
+        <p style="margin-top:1rem; max-width:480px;">Five hardy, layout-friendly species our aquascaping team reaches for again and again — suited to foreground carpets, mid-ground texture, and dramatic focal points alike.</p>
+
+        <div class="plant-list" style="margin-top:1.75rem">
+          <div class="plant-row">
+            <div class="p-thumb"><img src="assets/images/marine2.jpg" alt="Anubias plant"></div>
+            <div class="p-info"><h4>Anubias</h4><span>Low light · Epiphyte · Easy</span></div>
+          </div>
+          <div class="plant-row">
+            <div class="p-thumb"><img src="assets/images/Anubias.jpg" alt="Java Fern plant"></div>
+            <div class="p-info"><h4>Java Fern</h4><span>Low light · Epiphyte · Easy</span></div>
+          </div>
+          <div class="plant-row">
+            <div class="p-thumb"><img src="assets/images/Java Fern.jpg" alt="Amazon Sword plant"></div>
+            <div class="p-info"><h4>Amazon Sword</h4><span>Medium light · Background · Easy</span></div>
+          </div>
+          <div class="plant-row">
+            <div class="p-thumb"><img src="assets/images/Bucephalandra.jpg" alt="Bucephalandra plant"></div>
+            <div class="p-info"><h4>Bucephalandra</h4><span>Low light · Foreground · Moderate</span></div>
+          </div>
+          <div class="plant-row">
+            <div class="p-thumb"><img src="assets/images/Monte Carlo.jpg" alt="Monte Carlo carpeting plant"></div>
+            <div class="p-info"><h4>Monte Carlo</h4><span>High light · CO₂ recommended · Moderate</span></div>
+          </div>
+        </div>
+        <a href="pages/plants.html" class="btn btn-primary" style="margin-top:1.75rem">Explore Aquatic Plants</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 5. EQUIPMENT SHOWCASE ============ -->
+  <section class="section" style="background:var(--surface-2)" aria-labelledby="equip-heading">
+    <div class="container-wide">
+      <div class="section-head reveal">
+        <span class="eyebrow">Built to Last</span>
+        <h2 id="equip-heading">Equipment That Keeps Water in Balance.</h2>
+      </div>
+      <div class="equip-wrap reveal">
+        <div class="equip-media">
+          <img src="assets/images/underwater.jpg" alt="A wall of aquarium filters, lighting units and glass tanks">
+        </div>
+        <div class="equip-panels">
+          <div class="equip-panel"><i class="bi bi-bounding-box"></i><h4>Aquarium Tanks</h4><span>Rimless &amp; framed, 10–300 gal</span></div>
+          <div class="equip-panel"><i class="bi bi-funnel"></i><h4>Filters</h4><span>Canister, HOB &amp; sponge</span></div>
+          <div class="equip-panel"><i class="bi bi-brightness-high"></i><h4>LED Lighting</h4><span>Freshwater &amp; reef spectrums</span></div>
+          <div class="equip-panel"><i class="bi bi-thermometer-half"></i><h4>Heaters</h4><span>Precision &amp; titanium</span></div>
+          <div class="equip-panel"><i class="bi bi-wind"></i><h4>Air Pumps</h4><span>Quiet, energy-efficient</span></div>
+          <div class="equip-panel"><i class="bi bi-clipboard2-pulse"></i><h4>Water Testing</h4><span>Liquid kits &amp; digital meters</span></div>
+          <div class="equip-panel"><i class="bi bi-layers"></i><h4>Substrate</h4><span>Planted &amp; marine-grade</span></div>
+          <div class="equip-panel"><i class="bi bi-scissors"></i><h4>Aquascaping Tools</h4><span>Tweezers, scissors &amp; more</span></div>
+        </div>
+      </div>
+      <div style="margin-top:2rem"><a href="pages/equipment.html" class="btn btn-primary">Shop Equipment</a></div>
+    </div>
+  </section>
+
+  <!-- ============ 6. AQUARIUM CARE JOURNEY ============ -->
+  <section class="section" aria-labelledby="journey-heading">
+    <div class="container-wide">
+      <div class="section-head reveal">
+        <span class="eyebrow">The Setup Process</span>
+        <h2 id="journey-heading">Healthy Water. Happy Life.</h2>
+        <p>Every thriving aquarium moves through the same four stages — here's what to expect at each one.</p>
+      </div>
+      <div class="journey-wrap reveal">
+        <div class="journey-line" aria-hidden="true"></div>
+        <div class="journey-steps">
+          <div class="journey-step">
+            <div class="journey-num">01</div>
+            <h4>Set Up</h4>
+            <p>Choose a tank size, substrate and hardscape suited to the fish.</p>
+          </div>
+          <div class="journey-step">
+            <div class="journey-num">02</div>
+            <h4>Cycle</h4>
+            <p>Establish beneficial bacteria over 4–6 weeks before introducing.</p>
+          </div>
+          <div class="journey-step">
+            <div class="journey-num">03</div>
+            <h4>Balance</h4>
+            <p>Dial in temperature, pH and filtration, then stock gradually.</p>
+          </div>
+          <div class="journey-step">
+            <div class="journey-num">04</div>
+            <h4>Thrive</h4>
+            <p>Maintain a steady rhythm of water changes and observation.</p>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top:2rem"><a href="pages/blog.html" class="btn btn-outline">Visit Care Guides</a></div>
+    </div>
+  </section>
+
+  <!-- ============ 7. EXPERT ADVICE / CONSULTATION ============ -->
+  <section class="section" aria-labelledby="consult-heading">
+    <div class="container-wide">
+      <div class="consult-card reveal">
+        <div class="consult-copy">
+          <span class="eyebrow" style="color:var(--clr-accent)">Talk to a Specialist</span>
+          <h2 id="consult-heading">Not Sure What Your Aquarium Needs?</h2>
+          <p>Tell us about your tank, livestock, water conditions, and goals. Our team can help you choose compatible fish, plants, and equipment.</p>
+          <div class="consult-ctas">
+            <a href="pages/contact.html" class="btn btn-ghost-light">Ask an Expert</a>
+            <a href="pages/contact.html#special-order" class="btn btn-outline" style="border-color:rgba(255,255,255,.5); color:#fff;">Special Order Enquiry</a>
+          </div>
+        </div>
+        <div class="consult-media">
+          <img src="assets/images/cons.jpg" alt="A staff member advising a customer beside an aquarium">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 8. TESTIMONIALS ============ -->
+  <section class="section" style="background:var(--surface-2)" aria-labelledby="testi-heading">
+    <div class="container-wide">
+      <div class="section-head reveal">
+        <span class="eyebrow">From Our Hobbyists</span>
+        <h2 id="testi-heading">Trusted by Tank Keepers of Every Level.</h2>
+      </div>
+    </div>
+    <div class="container-wide">
+      <div class="testi-wrap reveal">
+        <figure class="testi-item">
+          <div class="avatar"><img src="https://i.pravatar.cc/150?img=47" alt="Maya R."></div>
+          <div>
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>"The team helped us build our first planted tank from scratch. Every recommendation was spot on."</blockquote>
+            <figcaption><cite>Maya R.</cite><div class="testi-meta">40-gallon planted community tank</div></figcaption>
+          </div>
+        </figure>
+        <figure class="testi-item">
+          <div class="avatar"><img src="https://i.pravatar.cc/150?img=12" alt="Sanjay K."></div>
+          <div>
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>"They special-ordered a pair of German Blue Rams for us and kept us updated the entire time."</blockquote>
+            <figcaption><cite>Sanjay K.</cite><div class="testi-meta">Freshwater community, 20 gallons</div></figcaption>
+          </div>
+        </figure>
+        <figure class="testi-item">
+          <div class="avatar"><img src="https://i.pravatar.cc/150?img=32" alt="Layla D."></div>
+          <div>
+            <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote>"Honest advice about our reef's stocking levels saved us from a costly mistake."</blockquote>
+            <figcaption><cite>Layla D.</cite><div class="testi-meta">Mixed reef, 75 gallons</div></figcaption>
+          </div>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 9. FINAL CTA ============ -->
+  <section class="section">
+    <div class="final-cta reveal">
+      <img src="assets/images/ready.jpg" alt="A large signature display aquarium in soft ambient light">
+      <div class="final-cta-inner">
+        <span class="eyebrow" style="color:var(--clr-accent)">Ready When You Are</span>
+        <h2>Your Next Aquarium Starts Here.</h2>
+        <p>From a first ten-gallon community tank to a custom reef build, our team is ready to help you plan it properly.</p>
+        <div class="final-cta-ctas">
+          <a href="pages/fish.html" class="btn btn-primary">Explore the Collection</a>
+          <a href="pages/contact.html" class="btn btn-ghost-light">Contact Our Team</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container-wide footer-top">
+    <div class="footer-brand">
+      <span class="brand footer-brand-logo"><img src="assets/images/logo.png" alt="Aquatic" class="brand-logo"></span>
+      <p>A specialist aquarium store for freshwater, marine and planted-tank keepers since 2008.</p>
+      <div class="footer-social">
+        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+      </div>
+    </div>
+    <div>
+      <h5>Explore</h5>
+      <a href="pages/fish.html">Fish</a>
+      <a href="pages/plants.html">Plants</a>
+      <a href="pages/equipment.html">Equipment</a>
+      <a href="pages/blog.html">Care Guides</a>
+    </div>
+    <div>
+      <h5>Company</h5>
+      <a href="pages/about.html">About</a>
+      <a href="pages/services.html">Services</a>
+      <a href="pages/contact.html">Contact</a>
+    </div>
+    <div>
+      <h5>Support</h5>
+      <a href="pages/contact.html">Shipping</a>
+      <a href="pages/contact.html#special-order">Special Orders</a>
+      <a href="pages/contact.html">FAQ</a>
+      <a href="pages/blog.html">Care Advice</a>
+    </div>
+    <div>
+      <h5>Stay Updated</h5>
+      <p style="color:rgba(234,248,246,.65); font-size:.88rem; margin-bottom:.5rem;">New arrivals and care tips, twice a month.</p>
+      <form class="footer-newsletter" data-validate novalidate>
+        <div class="form-field" style="flex:1; margin-bottom:0;">
+          <label class="visually-hidden" for="footer-email">Email address</label>
+          <input type="email" id="footer-email" name="email" placeholder="Email address" required>
+        </div>
+        <button type="submit" class="btn btn-primary btn-sm">Sign Up</button>
+      </form>
+    </div>
+  </div>
+  <div class="container-wide footer-bottom">
+    <span>&copy; 2026 Aquatic. All rights reserved.</span>
+    <span>42 Harbour Lane, Portside · Mon–Sat 10:00–19:00</span>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+/* ============================
+   DARK MODE TOKEN OVERRIDES
+   Activated by [data-theme="dark"] on <html>.
+   Component-level dark tweaks that don't fit as inline
+   overrides live in style.css next to their component;
+   this file holds the core surface/text remap.
+   ============================ */
+[data-theme="dark"]{
+  --surface-0: var(--clr-dark-bg);
+  --surface-1: #0A2831;
+  --surface-2: #0E323C;
+  --surface-glass: rgba(10,40,49,.55);
+  --border-soft: rgba(255,255,255,.08);
+  --border-strong: rgba(255,255,255,.16);
+
+  --text-primary: #EAF8F6;
+  --text-secondary: #A9C7CC;
+  --text-muted: #7C9BA1;
+
+  --shadow-soft: 0 24px 55px -25px rgba(0,0,0,.6);
+  --shadow-lift: 0 34px 70px -20px rgba(0,0,0,.65);
+  --shadow-tight: 0 10px 22px -12px rgba(0,0,0,.55);
+}
+
+[data-theme="dark"] body{ background:var(--surface-0); }
+
+[data-theme="dark"] .skeleton-block{
+  background:linear-gradient(90deg, var(--surface-2) 25%, rgba(255,255,255,.06) 37%, var(--surface-2) 63%);
+  background-size:400% 100%;
+}
+
+[data-theme="dark"] .map-placeholder{
+  background: repeating-linear-gradient(45deg, var(--surface-2) 0 12px, var(--surface-0) 12px 24px);
+}
+
+[data-theme="dark"] .btn-outline{ color:var(--text-primary); }
+
+[data-theme="dark"] .form-field input,
+[data-theme="dark"] .form-field select,
+[data-theme="dark"] .form-field textarea{
+  background:var(--surface-1);
+  color:var(--text-primary);
+}
